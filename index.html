@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Hello Evilla. </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+    <div>
+        <h2>Evilla present:</h2>
+        <h2> Шар предсказаний</h2>
+    </div>
+    <script>
+        document.write("Стоите на пороге непростого жизненного решения?" + "<br/>" +
+            "Перепробовали сотни способов выхода,  но ни знакомые, ни специалисты," + "<br/>" +
+            " ни собственный разум так и не дали четкого ответа: быть или не быть, да или нет." + "<br/>" +
+            " Шар оракул, предсказаний  - тот самый знак, которого вам не хватает." + "<br/><br/>");
+        document.write("<h2>Что бы получить ответ достаточно задать вопрос, вслух или в уме, </h2>");
+        document.write("<h2> - - - и нажать на F5 - - - </h2>" + "<br/>");
+        let Prediction = [
+            " It is certain (Бесспорно)",
+            "As I see it, yes (Мне кажется — да)",
+            "Reply hazy, try again (Пока не ясно, попробуй снова)",
+            "Don`t count on it (Даже не думай)",
+            " It is decidedly so (Предрешено)",
+            " Most likely (Вероятнее всего)",
+            "Ask again later (Спроси позже)",
+            "My reply is no (Мой ответ — «нет»)",
+            "Without a doubt (Никаких сомнений)",
+            "Outlook good (Хорошие перспективы)",
+            "Better not tell you now (Лучше не рассказывать)",
+            "My sources say no (По моим данным — «нет»)",
+            "Yes — definitely (Определённо да)",
+            "Signs point to yes (Знаки говорят — «да»)",
+            "Cannot predict now (Сейчас нельзя предсказать)",
+            "Outlook not so good (Перспективы не очень хорошие)",
+            "You may rely on it (Можешь быть уверен в этом)",
+            "Yes (Да)",
+            "Concentrate and ask again (Сконцентрируйся и спроси опять)",
+            "Very doubtful (Весьма сомнительно)"
+        ];
+        let i = Math.floor(Math.random() * 20);
+        document.write("<h2>" + "[" + Prediction[i] + "]" + "</h2>");
+    </script>
+
+</body>
+
+</html>
